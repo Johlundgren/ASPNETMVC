@@ -6,7 +6,21 @@ form {
     .input-group {
         display: grid;
     }
-    
+
+    .checkbox {
+        span {
+            display: block;
+
+            &.field-validation-error {
+                position: static;
+                top: 0;
+                right: 0;
+                @include text-s;
+                color: $danger;
+            }
+        }
+    }
+
     .checkbox-group {
         display: flex;
         justify-content: flex-start;
