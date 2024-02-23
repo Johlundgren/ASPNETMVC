@@ -1,0 +1,42 @@
+﻿@model FeaturesViewModel
+
+<section id="@Model.Id" class="features">
+    <div class="container">
+        <div class="feature-headline">
+            <h1>@Model.Title</h1>
+            <p>@Model.Description</p>
+        </div>
+        <div class="box-parent">
+            <div class="box-section">
+                <i class="fa-sharp fa-light fa-comments"></i>
+                <h5>@Model.BoxTitleOne</h5>
+                <p>@Model.BoxTextOne</p>
+            </div>
+            <div class="box-section">
+                <i class="fa-regular fa-desktop"></i>
+                <h5>@Model.BoxTitleTwo</h5>
+                <p>@Model.BoxTextTwo</p>
+            </div>
+            <div class="box-section">
+                <i class="fa-light fa-users-medical"></i>
+                <h5>@Model.BoxTitleThree</h5>
+                <p>@Model.BoxTextThree</p>
+            </div>
+            <div class="box-section">
+                <i class="fa-regular fa-bell-on"></i>
+                <h5>@Model.BoxTitleFour</h5>
+                <p>@Model.BoxTextFour</p>
+            </div>
+            <div class="box-section">
+                <i class="fa-light fa-memo"></i>
+                <h5>@Model.BoxTitleFive</h5>
+                <p>@Model.BoxTextFive</p>
+            </div>
+            <div class="box-section">
+                <i class="fa-sharp fa-light fa-shield-check"></i>
+                <h5>@Model.BoxTitleSix</h5>
+                <p>@Model.BoxTextSix</p>
+            </div>
+        </div>
+    </div>
+</section>

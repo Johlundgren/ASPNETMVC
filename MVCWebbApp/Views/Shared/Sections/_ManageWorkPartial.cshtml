@@ -1,0 +1,33 @@
+﻿@model ManageWorkViewModel
+
+<section id="@Model.Id" class="manage-work">
+    <div class="container">
+        <div class="image-container">
+            <img src="@Model.ManageWorkImage.ImageUrl" alt="@Model.ManageWorkImage.AltText">
+        </div>
+        <div class="text-container">
+            <h2>@Model.Title</h2>
+            <div class="text-icon-item">
+                <i class="@Model.Icon.IconName"></i>
+                <p>@Model.TextOne</p>
+            </div>
+            <div class="text-icon-item">
+                <i class="@Model.Icon.IconName"></i>
+                <p>@Model.TextTwo</p>
+            </div>
+            <div class="text-icon-item">
+                <i class="@Model.Icon.IconName"></i>
+                <p>@Model.TextThree</p>
+            </div>
+            <div class="text-icon-item">
+                <i class="@Model.Icon.IconName"></i>
+                <p>@Model.TextFour</p>
+            </div>
+            <div class="text-icon-item">
+                <i class="@Model.Icon.IconName"></i>
+                <p>@Model.TextFive</p>
+            </div>
+            <a class="btn-theme-s" asp-controller="@Model.Link.ControllerName" asp-action="@Model.Link.ActionName">@Model.Link.Text<i class="fa-regular fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>

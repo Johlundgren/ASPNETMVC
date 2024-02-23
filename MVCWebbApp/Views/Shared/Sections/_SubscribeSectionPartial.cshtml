@@ -1,0 +1,48 @@
+﻿@model SubscribeSectionViewModel
+
+<section id="@Model.Id" class="subscribe-section">
+    <div class="container">
+        <div class="subscribe-headline">
+            <h1>@Model.Title</h1>
+            <img src="@Model.Image.ImageUrl" alt="@Model.Image.AltText">
+        </div>
+        <div class="parent-parent">
+            <div class="newsletter-headline">
+                <h5>@Model.TitleTwo</h5>
+            </div>
+            <div class="parent-check-boxes">
+                <div class="check-boxes">
+                    <input type="checkbox">
+                    <p>@Model.TextOne</p>
+                </div>
+                <div class="check-boxes">
+                    <input type="checkbox">
+                    <p>@Model.TextTwo</p>
+                </div>
+                <div class="check-boxes">
+                    <input type="checkbox">
+                    <p>@Model.TextThree</p>
+                </div>
+                <div class="check-boxes">
+                    <input type="checkbox">
+                    <p>@Model.TextFour</p>
+                </div>
+                <div class="check-boxes">
+                    <input type="checkbox">
+                    <p>@Model.TextFive</p>
+                </div>
+                <div class="check-boxes">
+                    <input type="checkbox">
+                    <p>@Model.TextSix</p>
+                </div>
+            </div>
+        </div>
+        <div class="subscribe-section-footer">
+            <input placeholder="Your Email" type="text">
+            <a class="btn-theme-s">Subscribe *</a>
+        </div>
+        <div class="terms">
+            <p>* Yes, I agree to the <a asp-controller="@Model.Link.ControllerName" asp-action="@Model.Link.ActionName">terms</a> and <a asp-controller="@Model.Link.ControllerName" asp-action="@Model.Link.ActionName">privacy</a> policy</p>
+        </div>
+    </div>
+</section>

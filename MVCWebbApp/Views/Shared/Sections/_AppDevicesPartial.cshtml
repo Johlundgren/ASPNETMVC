@@ -1,0 +1,46 @@
+﻿@model AppDevicesViewModel
+
+<section id="@Model.Id" class="app-devices">
+    <div class="container">
+        <div class="image-container">
+            <img src="@Model.Image.ImageUrl" alt="@Model.Image.AltText">
+        </div>
+        <div class="text-container">
+            <h1>@Model.Title</h1>
+            <div class="text-container2">
+                <p>@Model.Text</p>
+                <i class="@Model.Icon.IconName"></i>
+                <i class="@Model.Icon.IconName"></i>
+                <i class="@Model.Icon.IconName"></i>
+                <i class="@Model.Icon.IconName"></i>
+                <i class="@Model.Icon.IconName"></i>
+            </div>
+            <div class="text-container3">
+                <div class="text-container4">
+                    <h4>@Model.TitleTwo</h4>
+                    <p>@Model.TextTwo</p>
+                </div>
+                <div class="img-container">
+                    <img src="@Model.Image.ImageUrlTwo" alt="@Model.Image.AltTextTwo">
+                </div>
+            </div>
+            <div class="text-container2">
+                <p>@Model.TextText</p>
+                <i class="@Model.Icon.IconName"></i>
+                <i class="@Model.Icon.IconName"></i>
+                <i class="@Model.Icon.IconName"></i>
+                <i class="@Model.Icon.IconName"></i>
+                <i class="@Model.Icon.IconName"></i>
+            </div>
+            <div class="text-container3">
+                <div class="text-container4">
+                    <h4>@Model.TitleThree</h4>
+                    <p>@Model.TextThree</p>
+                </div>
+                <div class="img-container">
+                    <img src="@Model.Image.ImageUrlThree" alt="@Model.Image.AltTextThree">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
