@@ -15,9 +15,12 @@ public class AuthController : Controller
 
     [Route("/signup")]
     [HttpPost]
-    public IActionResult SignUp(SignUpViewModel model)
+    public IActionResult SignUp(SignUpViewModel viewModel)
     {
-        return View();
+        if (!ModelState.IsValid)
+             return View(viewModel);
+
+        return RedirectToAction("SignIn", "Auth");
     }
 
 }
