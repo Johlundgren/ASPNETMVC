@@ -1,7 +1,7 @@
-﻿using MVCWebbApp.Helpers;
+﻿using Infrastructure.Helpers;
 using System.ComponentModel.DataAnnotations;
 
-namespace MVCWebbApp.Models;
+namespace Infrastructure.Models;
 
 public class SignUpModel
 {
@@ -39,6 +39,4 @@ public class SignUpModel
     [Display(Name = "I agree to the Terms & Conditions.", Order = 5)]
     [CheckBoxRequired(ErrorMessage = "You must accept the terms and conditions to proceed")]
     public bool TermsAndConditions { get; set; } = false;
-
 }
-

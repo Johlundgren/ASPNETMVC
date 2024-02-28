@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MVCWebbApp.Models;
+namespace Infrastructure.Models;
 
 public class SignInModel
 {
@@ -14,7 +14,7 @@ public class SignInModel
     [Required(ErrorMessage = "Password is required")]
     public string Password { get; set; } = null!;
 
-   
+
     [Display(Name = "Remember me", Order = 2)]
     public bool RememberMe { get; set; }
 }

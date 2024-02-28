@@ -1,4 +1,4 @@
-﻿using MVCWebbApp.Models;
+﻿using Infrastructure.Models;
 
 namespace MVCWebbApp.ViewModels;
 

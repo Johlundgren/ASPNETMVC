@@ -22,26 +22,25 @@ public class HomeIndexViewModel
                 ],
 
     };
+    //public FeaturesViewModel Features { get; set; } = new FeaturesViewModel
+    //{
+    //    Id = "features",
+    //    Title = "What Do You Get with Our Tool?",
+    //    Description = "Make sure all of your tasks are organized so you can set the priorities and focus on important.",
+    //    BoxTitleOne = "Comments on Tasks",
+    //    BoxTextOne = "Id mollis consectetur congue egestas egestas suspendisse blandit justo.",
+    //    BoxTitleTwo = "Task Analytics",
+    //    BoxTextTwo = "Non imperdiet facilisis nulla tellus Morbi scelerisque eget adipiscing vulputate.",
+    //    BoxTitleThree = "Multiple Assignees",
+    //    BoxTextThree = "A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.",
+    //    BoxTitleFour = "Notifications",
+    //    BoxTextFour = "Diam, suspendisse velit cras ac. Lobortis diam volutpat, eget pellentesque viverra.",
+    //    BoxTitleFive = "Sections & Subtasks",
+    //    BoxTextFive = "Mi feugiat hac id in. Sit elit placerat lacus nibh lorem ridiculus lectus.",
+    //    BoxTitleSix = "Data Security",
+    //    BoxTextSix = "Aliquam malesuada neque eget elit nulla vestibulum nunc cras.",
 
-    public FeaturesViewModel Features { get; set; } = new FeaturesViewModel
-    {
-        Id = "features",
-        Title = "What Do You Get with Our Tool?",
-        Description = "Make sure all of your tasks are organized so you can set the priorities and focus on important.",
-        BoxTitleOne = "Comments on Tasks",
-        BoxTextOne = "Id mollis consectetur congue egestas egestas suspendisse blandit justo.",
-        BoxTitleTwo = "Task Analytics",
-        BoxTextTwo = "Non imperdiet facilisis nulla tellus Morbi scelerisque eget adipiscing vulputate.",
-        BoxTitleThree = "Multiple Assignees",
-        BoxTextThree = "A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.",
-        BoxTitleFour = "Notifications",
-        BoxTextFour = "Diam, suspendisse velit cras ac. Lobortis diam volutpat, eget pellentesque viverra.",
-        BoxTitleFive = "Sections & Subtasks",
-        BoxTextFive = "Mi feugiat hac id in. Sit elit placerat lacus nibh lorem ridiculus lectus.",
-        BoxTitleSix = "Data Security",
-        BoxTextSix = "Aliquam malesuada neque eget elit nulla vestibulum nunc cras.",
-
-    };
+    //};
 
     public LightDarkViewModel LightDark { get; set; } = new LightDarkViewModel
     {

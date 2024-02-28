@@ -857,25 +857,25 @@ footer .container .social-media i {
   margin-right: 1rem;
 }
 
-.features {
+#features {
   height: 68rem;
   background-color: #F3F6FF;
 }
 @media (min-width: 992px) {
-  .features {
+  #features {
     height: 50rem;
   }
 }
-.features .container {
+#features .container {
   height: 50rem;
 }
-.features .container .feature-headline {
+#features .container .feature-headline {
   padding-top: 6rem;
 }
-.features .container .feature-headline h1 {
+#features .container .feature-headline h1 {
   text-align: center;
 }
-.features .container .feature-headline p {
+#features .container .feature-headline p {
   text-align: center;
   color: #9397AD;
   line-height: 160%;
@@ -884,18 +884,18 @@ footer .container .social-media i {
   font-family: "Manrope", sans-serif;
   font-size: 18px !important;
 }
-.features .container .box-parent {
+#features .container .box-parent {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
   background-color: #F3F6FF;
 }
 @media (min-width: 768px) {
-  .features .container .box-parent {
+  #features .container .box-parent {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-.features .container .box-parent .box-section {
+#features .container .box-parent .box-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -904,16 +904,16 @@ footer .container .social-media i {
   flex: 1;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-.features .container .box-parent .box-section i {
+#features .container .box-parent .box-section i {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 4rem;
   color: #6366F1;
 }
-.features .container .box-parent .box-section h5 {
+#features .container .box-parent .box-section h5 {
   text-align: center;
 }
-.features .container .box-parent .box-section p {
+#features .container .box-parent .box-section p {
   text-align: center;
   line-height: 160%;
   font-weight: 400;
@@ -923,20 +923,20 @@ footer .container .social-media i {
   color: #565973;
 }
 @media (min-width: 768px) {
-  .features .container .box-parent .box-section:nth-child(1), .features .container .box-parent .box-section:nth-child(2) {
+  #features .container .box-parent .box-section:nth-child(1), #features .container .box-parent .box-section:nth-child(2) {
     border-right: 2px solid rgba(0, 0, 0, 0.107);
   }
-  .features .container .box-parent .box-section:nth-child(4) {
+  #features .container .box-parent .box-section:nth-child(4) {
     border-right: 2px solid rgba(0, 0, 0, 0.107);
   }
-  .features .container .box-parent .box-section:nth-child(5) {
+  #features .container .box-parent .box-section:nth-child(5) {
     border-right: 2px solid rgba(0, 0, 0, 0.107);
   }
-  .features .container .box-parent .box-section:nth-child(1), .features .container .box-parent .box-section:nth-child(2), .features .container .box-parent .box-section:nth-child(3) {
+  #features .container .box-parent .box-section:nth-child(1), #features .container .box-parent .box-section:nth-child(2), #features .container .box-parent .box-section:nth-child(3) {
     border-bottom: 2px solid rgba(0, 0, 0, 0.107);
   }
 }
-.features .container .box-parent .box-section:hover {
+#features .container .box-parent .box-section:hover {
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
