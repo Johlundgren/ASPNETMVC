@@ -4,9 +4,9 @@ using Infrastructure.Repositories;
 
 namespace Infrastructure.Services;
 
-public class FeatureService(FeatureItemRepository featureRepository, FeatureItemRepository featureItemRepository)
+public class FeatureService(FeatureRepository featureRepository, FeatureItemRepository featureItemRepository)
 {
-    private readonly FeatureItemRepository _featureRepository = featureRepository;
+    private readonly FeatureRepository _featureRepository = featureRepository;
     private readonly FeatureItemRepository _featureItemRepository = featureItemRepository;
 
     public async Task<ResponseResult> GetAllFeaturesAsync()
